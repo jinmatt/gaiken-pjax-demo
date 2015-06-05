@@ -20,5 +20,15 @@
   <body>
     <h1>Express with Gaikan!</h1>
     <div data-fragment="content" id="pjax-container"></div>
+
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/jquery.pjax.js"></script>
+    <script>
+      $(function() {
+
+        $('a').pjax('#pjax-container');
+
+      });
+    </script>
   </body>
 </html>
