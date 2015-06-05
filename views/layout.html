@@ -26,8 +26,7 @@
     <script>
       $(function() {
 
-        $('a').pjax('#pjax-container');
-
+        $('a').pjax('[data-pjax] a, a[data-pjax]', '#pjax-container');
       });
     </script>
   </body>

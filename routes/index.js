@@ -16,7 +16,7 @@ router.get('/next', function(req, res, next) {
   }
 
   gaikan.options.layout = './views/layout.html';
-  res.render('index', { title: 'Express' });
+  res.render('next', { title: 'Express' });
 });
 
 router.get('/content', function(req, res, next) {
